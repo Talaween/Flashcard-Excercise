@@ -58,9 +58,6 @@
   .col-xs-11 {width: 91.66%;}
   .col-xs-12 {width: 100%;}
 
-  .myFont {font-size:12px;}
-
-  h1 {font-size:26px;}
   .res-img {width: 9%;}
 } 
 
@@ -81,8 +78,6 @@
   .col-sm-11 {width: 91.66%;}
   .col-sm-12 {width: 100%;}
 
-  .myFont {font-size:14px;}
-  h1 {font-size:30px;}
   .res-img {width: 7%;}
 } 
 
@@ -102,8 +97,6 @@
   .col-md-11 {width: 91.66%;}
   .col-md-12 {width: 100%;}
 
-  .myFont {font-size:16px;}
-  h1 {font-size:34px;}
   .res-img {width: 5%;}
 } 
 
@@ -123,8 +116,6 @@
   .col-lg-11 {width: 91.66%;}
   .col-lg-12 {width: 100%;}
 
-  .myFont {font-size:18px;}
-  h1 {font-size:38px;}
   .res-img {width: 4%;}
 } 
 
@@ -144,7 +135,5 @@
   .col-xl-11 {width: 91.66%;}
   .col-xl-12 {width: 100%;}
 
-  .myFont {font-size:20px;}
-  h1 {font-size:42px;}
   .res-img {width: 3%;}
 }
