@@ -12,4 +12,5 @@ app.get('/about', function(req, res) {
     res.sendFile(path.join(__dirname+'/html/about.html'));
 });
 
-app.listen(3000);
+var port = process.env.PORT || 3000;
+app.listen(port);
