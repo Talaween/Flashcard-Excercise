@@ -59,13 +59,15 @@ function displayFlashcards(data){
   }
 }
 
+//only display only the card that was clicked
+//hide all others
 function onFlashcardClick(){
 
   id = event.currentTarget.id;
   allRows = document.getElementById("app").children;
-  var i =0;
+  var i;
   for(i=0; i < allRows.length; i++){
-    var j = 0;
+    var j;
     for(j=0; j < allRows[i].children.length; j++){
       if(allRows[i].children[j].children[0].id !== id){
         allRows[i].children[j].classList.add("hide");
@@ -81,7 +83,4 @@ function reset(){
   while (app.firstChild) {
     app.removeChild(app.firstChild);
   }
-}
-function selectCard(){
-
 }
