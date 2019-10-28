@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" type="text/css" href="./css/grid.css">
+        <link rel="stylesheet" type="text/css" href="./css/flashcard.css">
+        <script src="./js/fetch.js"></script>
+    </head>
+    <body>
+
+        <div class="header">
+            <img src="./img/menu_icon.png" alt="menu icon" class="res-img">
+            <h2>Widgit Flashcard Maker</h2>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" >
+                <h3>1) Enter Text in the input field:</h3>
+                <input id="txtWord" type="text" name="word" placeholder="Enter a word or phrase" onchange="fetchSymbol()">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" >
+                <h3>2) Click the card to select</h3>
+            </div>
+        </div>
+        <div id="app"></div>
+        
+        <div id="row" class="row hide">
+                
+        </div>
+
+        <div id="column" class="hide col-xs-12 col-sm-6 col-md-3 col-lg-2 col-xl-2">
+            <div id="flashcard" class="flashcard" onclick="onFlashcardClick()">
+                <img id="symbol" src="" alt="Communication Symbol">
+                <div class="text-container">
+                    <h3 id="lblWord"></h3> 
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

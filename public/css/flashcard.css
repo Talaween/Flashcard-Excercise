@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.header{
+  padding: 10px;
+  background-color: darkblue;
+  color: whitesmoke;
+}
+
+.flashcard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width: 100%;
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .flashcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(187, 184, 28, 0.4);
+    border-color: goldenrod;
+  }
+
+  .flashcard img {
+      display: block;
+      margin: auto;
+      width: 100%;
+      height: auto;
+      max-height: 256px;
+  }
+  .text-container {
+    padding: 2px 16px;
+    text-align: center;
+  }
+  
+  
