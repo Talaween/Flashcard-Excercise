@@ -4,7 +4,7 @@
 * no frameworks or libraries used.
 * as one of the requirements to make it availalble on mobile broswer a simple responsive grid was created
 * the application is made available through a node expressJS server
-* the web application is available online at the following link:
+* the web application is available online at the following link: https://widgit-symbols.herokuapp.com/
 
 # how to run the web application:
 
@@ -14,3 +14,6 @@
 * run command: npm start
 * navigate to http://localhhost:3000 to test the application
 
+# test it online
+
+go to the following link: https://widgit-symbols.herokuapp.com/
